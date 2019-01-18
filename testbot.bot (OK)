@@ -1,0 +1,27 @@
+{
+    "name": "testbot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "1",
+            "name": "development"
+        },
+        {
+            "type": "luis",
+            "name": "InvestmentExplorer",
+            "appId": "095084e7-b7e2-4d4f-9e23-d1008984edc9",
+            "version": "v0.1",
+            "authoringKey": "3ed6d18a0c254ffaa42c6941b635c403",
+            "region": "eastasia",
+            "id": "31"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\Github-MyWork\\BotLocal_V4\\testbot\\testbot.bot",
+    "overrides": null
+}

@@ -1,0 +1,63 @@
+{
+    "name": "InvestmentExplorerBot",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "tenantId": "4dced229-4c95-476d-b76b-34d306d723eb",
+            "subscriptionId": "851da8fc-5b5f-48f2-9e14-395ce8ace4bf",
+            "resourceGroup": "BotV4_RG",
+            "serviceName": "InvestmentExplorerBot",
+            "name": "InvestmentExplorerBot",
+            "id": "1",
+            "appId": "b2e7f82e-5fad-4f92-8e0e-aae1d9e8efa6"
+        },
+        {
+            "type": "blob",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=storecustomerservinnxgle;AccountKey=0Wiz4Si9SHnclxTVdT9GMwxjxcsenPgosxxhSVRTdcOUPxIB9uROl1mW1yUnJJ3bP8R/pPgAWIg9EaNjAK/6+A==;",
+            "tenantId": "4dced229-4c95-476d-b76b-34d306d723eb",
+            "subscriptionId": "851da8fc-5b5f-48f2-9e14-395ce8ace4bf",
+            "resourceGroup": "botservices",
+            "serviceName": "storecustomerservinnxgle",
+            "id": "2"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "name": "development",
+            "id": "3"
+        },
+        {
+            "type": "endpoint",
+            "appId": "b2e7f82e-5fad-4f92-8e0e-aae1d9e8efa6",
+            "appPassword": "stzpuBZY7770^]ypFKRP4!? ",
+            "endpoint": "https://investmentexplorerbot.azurewebsites.net/api/messages",
+            "name": "production",
+            "id": "4"
+        },
+        {
+            "type": "appInsights",
+            "instrumentationKey": "c4041fa3-ba7c-4802-bdbc-524d83e32fee",
+            "applicationId": "48d5b4ad-8e02-4620-a8bc-8f20f59d31e7",
+            "apiKeys": {},
+            "tenantId": "4dced229-4c95-476d-b76b-34d306d723eb",
+            "subscriptionId": "851da8fc-5b5f-48f2-9e14-395ce8ace4bf",
+            "resourceGroup": "BotV4_RG",
+            "serviceName": "InvestmentExplorerBotkhpni4",
+            "id": "5"
+        },
+        {
+            "type": "luis",
+            "name": "InvestmentExplorer",
+            "appId": "095084e7-b7e2-4d4f-9e23-d1008984edc9",
+            "version": "v0.1",
+            "authoringKey": "3ed6d18a0c254ffaa42c6941b635c403",
+            "region": "eastasia",
+            "id": "6"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
