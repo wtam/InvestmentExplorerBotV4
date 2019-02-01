@@ -32,14 +32,14 @@
         {
             "type": "endpoint",
             "appId": "b2e7f82e-5fad-4f92-8e0e-aae1d9e8efa6",
-            "appPassword": "stzpuBZY7770^]ypFKRP4!? ",
+            "appPassword":  ,
             "endpoint": "https://investmentexplorerbot.azurewebsites.net/api/messages",
             "name": "production",
             "id": "4"
         },
         {
             "type": "appInsights",
-            "instrumentationKey": "c4041fa3-ba7c-4802-bdbc-524d83e32fee",
+            "instrumentationKey": "",
             "applicationId": "48d5b4ad-8e02-4620-a8bc-8f20f59d31e7",
             "apiKeys": {},
             "tenantId": "4dced229-4c95-476d-b76b-34d306d723eb",
@@ -53,7 +53,7 @@
             "name": "InvestmentExplorer",
             "appId": "095084e7-b7e2-4d4f-9e23-d1008984edc9",
             "version": "v0.1",
-            "authoringKey": "3ed6d18a0c254ffaa42c6941b635c403",
+            "authoringKey": "",
             "region": "eastasia",
             "id": "6"
         }
